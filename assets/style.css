@@ -1,3 +1,45 @@
 body {
-    background-color: rgb(255, 140, 0);
+    background-color: rgb(86, 127, 134);
+}
+
+footer {
+    background-color: black;
+    font-family: Bai Jamjuree;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33%-6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: rgb(150, 218, 230);
+    height: 100%;
+}
+
+.cartao__conteudo h3 {
+    background-color: rgb(19, 170, 170);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
 }
