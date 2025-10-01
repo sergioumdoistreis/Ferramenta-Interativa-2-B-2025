@@ -9,3 +9,9 @@ criaCartao(
 'Qual é a primeira Lei de Newton?',
 'Lei da Inércia'
 )
+
+criaCartao(
+'Fisica',
+'Qual é a primeira Lei de Newton?',
+'Lei da Inércia'
+)
