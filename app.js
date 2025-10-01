@@ -1,13 +1,13 @@
 function criaCartao(categoria, pergunta, resposta) {
 
-    console.log(categoria, pergunta, resposta)
+  console.log(categoria, pergunta, resposta)
 
-    let container = document.getElementById('container')
-    let cartao = document.createElement('article')
-    cartao.className = 'cartao'
+  let container = document.getElementById('container')
+  let cartao = document.createElement('article')
+  cartao.className = 'cartao'
 
-    //17-09-25//
-    cartao.innerHTML = `
+  //17-09-25//
+  cartao.innerHTML = `
 <div class="cartao__conteudo">
 
    <h3>${categoria}</h3>
@@ -19,6 +19,6 @@ function criaCartao(categoria, pergunta, resposta) {
    </div>
 </div>
 `
-container.appendChild(cartao)
+  container.appendChild(cartao)
 
 }
